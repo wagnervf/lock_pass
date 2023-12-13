@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "193584639500",
+    "project_id": "lockpass",
+    "storage_bucket": "lockpass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193584639500:android:5d8b2e53fe86b9ce2b0829",
+        "android_client_info": {
+          "package_name": "br.com.lockpass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193584639500-u0160j8le9ucjmq28gfa5egg4gl3nrhm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.lockpass",
+            "certificate_hash": "37d6f550540d5608976034a256a1ad820b86af95"
+          }
+        },
+        {
+          "client_id": "193584639500-c4hmf2io239els5jb3bd7mc92ntg1219.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmLaEL5OVlw8rzSDV83vatCg9sNHrBxSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193584639500-c4hmf2io239els5jb3bd7mc92ntg1219.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

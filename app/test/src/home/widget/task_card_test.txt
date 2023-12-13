@@ -1,0 +1,28 @@
+import 'package:flutter_test/flutter_test.dart';
+import 'package:lockpass/src/home/widget/task_card.dart';
+import 'package:lockpass/src/shared/services/realm/models/task_model.dart';
+import 'package:realm/realm.dart';
+
+void main() {
+  final board = TaskBoard(
+    Uuid.v4(),
+    'Nova lista de tarefas 1',
+  );
+
+  test(
+    'Task Card',
+    () {
+      final tasks = [
+        Task(Uuid.v4(), '', complete: true),
+        Task(Uuid.v4(), '', complete: true),
+        Task(Uuid.v4(), '', complete: false),
+        Task(Uuid.v4(), '', complete: false),
+      ];
+
+      final progress = TaskCard(board: board,).getProgress(tasks);
+
+      expect(progress, 0.5);
+      //expect(progress, 1.0);
+    },
+  );
+}
